@@ -55,6 +55,14 @@
             }
 
             Console.WriteLine(i);
+
+            /*
+             
+              1. Variables declared inside Main cannot be used inside other methods because methods have their own scope
+              2. Variables declared inside blocks only exist inside that block
+              3.Scope improves safety by preventing accidental use to variables where they shouldn't be accessible
+              
+             */
         }
     }
 }
