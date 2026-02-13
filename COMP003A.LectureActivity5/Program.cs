@@ -4,7 +4,21 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            static void DisplayWelcome()
+            {
+                Console.WriteLine("Welcome to Module 5!");
+            }
+            DisplayWelcome();
+
+            static void DisplayUserInfo(string name, int age)
+            {
+                Console.WriteLine($"Name: {name}, Age: {age}");
+            }
+
+            string name = "Alex";
+            int age = 20;
+
+            DisplayUserInfo(name, age);
         }
     }
 }
