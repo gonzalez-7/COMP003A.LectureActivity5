@@ -10,6 +10,8 @@
             }
             DisplayWelcome();
 
+            //
+
             static void DisplayUserInfo(string name, int age)
             {
                 Console.WriteLine($"Name: {name}, Age: {age}");
@@ -19,6 +21,13 @@
             int age = 20;
 
             DisplayUserInfo(name, age);
+
+            //
+
+            static int CalculateSum(int num1, int num2)
+            {
+                return num1 + num2; 
+            }
         }
     }
 }
